@@ -1,0 +1,8 @@
+-- Table chats
+CREATE TABLE IF NOT EXISTS chats (
+	id SERIAL PRIMARY KEY,
+    user1_id INT REFERENCES users(id) ON DELETE CASCADE,
+	user2_id INT REFERENCES users(id) ON DELETE CASCADE,
+	created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
+	UNIQUE (user1_id, user2_id)
+);
