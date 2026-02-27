@@ -2,6 +2,8 @@
 
 Full-stack dating application. Handles user profiles, likes, matches, real-time chat, and notifications.
 
+42 school project **validated at 100/100**.
+
 ## Technologies
 - Backend: Node.js + Express
 - Frontend: React
