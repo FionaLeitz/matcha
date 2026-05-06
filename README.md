@@ -3,6 +3,7 @@
 Full-stack dating application. Handles user profiles, likes, matches, real-time chat, and notifications.
 
 42 school project **validated at 100/100**.
+This project was developed in collaboration with [paigeh4rris](https://github.com/paigeh4rris).
 
 ## Technologies
 - Backend: Node.js + Express
@@ -24,8 +25,6 @@ The frontend is implemented in React, with a responsive design that works on des
 
 ### Note on Database & Queries
 The PostgreSQL database is structured to efficiently manage users, matches, likes, chats, notifications, and tags. The queries are designed to handle complex matching logic and relational data, ensuring accurate results and smooth performance.
-
-This project was developed in collaboration with [paigeh4rris](https://github.com/paigeh4rris).
 
 ## Screenshots
 ###### Signup
